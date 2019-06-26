@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{8b4fccd5-92a9-4d21-a8c7-114b6cc8789b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\models">
+      <UniqueIdentifier>{9b81fb75-69f4-42bb-9c73-6862d854d01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\textures">
+      <UniqueIdentifier>{782247c3-aa13-48dd-b8f0-a3619b2ef073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\shaders">
+      <UniqueIdentifier>{b22ac2bb-04df-4a22-aeb9-14282e12e0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\shaders\compiled">
+      <UniqueIdentifier>{b3a05867-72a8-48a0-80b6-e1ec5509fa2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\Capture.PNG">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\city_height_map.bmp">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\default.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\heart-1972376_960_720.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\heightmap.bmp">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\images.bmp">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\wild-flowers-png-24.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\world_heigh_map.bmp">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\world_heigh_map.jpg">
+      <Filter>assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="assets\shaders\default_ps.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\default_vs.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\models\cube.obj">
+      <Filter>assets\models</Filter>
+    </Resource>
+    <Resource Include="assets\models\donut.obj">
+      <Filter>assets\models</Filter>
+    </Resource>
+    <Resource Include="assets\models\jet.mtl">
+      <Filter>assets\models</Filter>
+    </Resource>
+    <Resource Include="assets\models\jet.obj">
+      <Filter>assets\models</Filter>
+    </Resource>
+    <Resource Include="assets\models\r8_gt_obj.rar">
+      <Filter>assets\models</Filter>
+    </Resource>
+    <Resource Include="assets\models\woofer.obj">
+      <Filter>assets\models</Filter>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

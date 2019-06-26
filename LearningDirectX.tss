@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\Camera.cpp</string>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\Camera.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\Model.cpp</string>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\Model.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\Renderer.cpp</string>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\Renderer.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\VertexShader.hlsl</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\main.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\application.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\LearningDirectX.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\Training\DirectX\LearningDirectX\LearningDirectX\Mesh.cpp</string>
+      <string>d:\Training\DirectX\LearningDirectX\LearningDirectX\Mesh.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\Training\DirectX\LearningDirectX\LearningDirectX\Material.cpp</string>
+      <string>d:\Training\DirectX\LearningDirectX\LearningDirectX\Material.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\ShaderManager.cpp</string>
+      <string>D:\Training\DirectX\LearningDirectX\LearningDirectX\ShaderManager.h</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vector</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
