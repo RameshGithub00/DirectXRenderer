@@ -39,7 +39,7 @@ namespace core {
 
         hInst = hInstance;
 
-        m_World = new World();
+        //m_World = new World();
 
         m_shaderManager  = new ShaderManager();
 
@@ -85,7 +85,7 @@ namespace core {
                 OutputDebugString("Left Mouse");
             }
 
-            m_World->Step(GAMETIMER->DeltaTime());
+            //m_World->Step(GAMETIMER->DeltaTime());
 
             RENDERER->beginFrame();
 

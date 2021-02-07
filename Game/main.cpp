@@ -1,7 +1,7 @@
 
 #pragma once
 
-#include "engine/XPlatform.h"
+#include <engine/XPlatform.h>
 #include "game.h"
 #include <iostream>
 #include <fstream>
@@ -27,5 +27,5 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance,
         game.run();
     }
     game.exit();
-    return 0;
+    return 0; 
 }

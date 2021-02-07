@@ -1,7 +1,7 @@
 #pragma once
 
 #include "engine/XPlatform.h"
-#include "Physics.h"
+//#include "Physics.h"
 
 namespace core {
 
@@ -34,7 +34,7 @@ namespace core {
         void handleMouse(UINT msg, LPARAM lParam, WPARAM wParam);
         bool m_stop;
     protected:
-        World *m_World;
+       // World *m_World;
     private:
 
         static Application* s_instance;

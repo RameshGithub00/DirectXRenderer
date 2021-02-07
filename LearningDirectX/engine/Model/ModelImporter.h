@@ -3,6 +3,7 @@
 #include <vector>
 #include "engine/MathsWrapper.h"
 #include <map>
+#include <string>
 
 namespace core {
 

@@ -54,9 +54,10 @@ namespace core {
         // Transform the lookAt and up vector by the rotation matrix so the view is correctly rotated at the origin.
         //lookAtVector = XMVector3TransformCoord(lookAtVector, rotationMatrix);
         m_up = XMVector3TransformCoord(upVector, rotationMatrix);
+        m_up.m128_f32[3] = 0.0f;
 
         // Translate the rotated camera position to the location of the viewer.
-        m_lookAt = XMVectorAdd(m_position, lookAtVector);
+        m_lookAt = lookAtVector;// XMVectorAdd(m_position, lookAtVector);
     }
 
 

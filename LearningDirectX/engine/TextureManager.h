@@ -2,6 +2,7 @@
 #include "framework/Singleton.h"
 #include "engine/XPlatform.h"
 #include <map>
+#include <string>
 
 namespace core 
 {

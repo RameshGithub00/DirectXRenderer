@@ -254,7 +254,7 @@ namespace core {
         //bind the render target
         m_pDeviceContext->OMSetRenderTargets(1, &m_pBackbuffer, m_pStencilBuffer);
 
-        float clearColor[] = { 0.1,0.1,0.1,1 };
+        float clearColor[] = { 1,0.1,0.1,1 };
         m_pDeviceContext->ClearRenderTargetView(m_pBackbuffer, clearColor);
         m_pDeviceContext->ClearDepthStencilView(m_pStencilBuffer, D3D11_CLEAR_DEPTH, 1.0f, 0);
 
@@ -287,11 +287,6 @@ namespace core {
                     m_pDeviceContext->VSSetConstantBuffers(1, 1, &m_pMatrixBuffer);
                 }
                 model->draw();
-               // RENDERER->getDeviceContext()->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
-
-           //     RENDERER->getDeviceContext()->IASetVertexBuffers(0, 1, model->m_pVertexBuffer, &strides, &offset);
-                //RENDERER->getDeviceContext()->IASetIndexBuffer(m_pIndexBuffer, DXGI_FORMAT_R32_UINT, 0);
-               // RENDERER->getDeviceContext()->DrawIndexedInstanced(0,30,)
             }
             ++itr;
         }

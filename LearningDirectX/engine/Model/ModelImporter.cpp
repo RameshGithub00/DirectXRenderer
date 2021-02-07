@@ -14,8 +14,6 @@
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
-#pragma comment(lib, "assimp.lib") 
-
 namespace core {
 
     using namespace std;
